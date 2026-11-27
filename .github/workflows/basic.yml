@@ -18,4 +18,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo "Add other Actions to build"
-        ecoh "test, adn deploy your project"
+        echo "test, adn deploy your project"
