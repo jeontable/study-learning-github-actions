@@ -23,3 +23,11 @@ jobs:
       run: |
         echo "Add other Actions to build"
         echo "test, adn deploy your project"
+    
+    install:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Install Package
+        run : |
+          sudo apt-get update
+          sudo apt-get install lrzsz
