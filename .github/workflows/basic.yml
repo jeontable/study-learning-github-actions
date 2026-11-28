@@ -38,5 +38,5 @@ jobs:
     steps:
     - name: Install lrzsz
       run : |
-        sudo apt-get update
-        sudo apt-get install lrzsz
+        apt-get update
+        apt-get install lrzsz
