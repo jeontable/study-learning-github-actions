@@ -31,3 +31,11 @@ jobs:
       run : |
         sudo apt-get update
         sudo apt-get install lrzsz
+
+  install-self:
+    runs-on: self-hosted
+    steps:
+    - name: Install lrzsz
+      run : |
+        sudo apt-get update
+        sudo apt-get install lrzsz
