@@ -33,7 +33,7 @@ jobs:
         sudo apt-get install lrzsz
 
   install-self:
-    runs-on: self-hosted
+    runs-on: [self-hosted, helloworld]
     steps:
     - name: Install lrzsz
       run : |
