@@ -34,6 +34,7 @@ jobs:
 
   install-self:
     runs-on: self-hosted
+    container: ubuntu:26.04
     steps:
     - name: Install lrzsz
       run : |
